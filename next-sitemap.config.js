@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-    siteUrl: 'https://yourdomain.com',
+    siteUrl: 'https://neubrutalism-temp.vercel.app/',
     
     // Generate a robots.txt file alongside the sitemap(s)
     generateRobotsTxt: true,

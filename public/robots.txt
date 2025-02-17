@@ -1,8 +1,9 @@
+# *
 User-agent: *
 Allow: /
 
-# Optionally disallow internal Next.js build directories:
-Disallow: /_next/
-Disallow: /api/
+# Host
+Host: https://neubrutalism-temp.vercel.app/
 
-Sitemap: https://yourdomain.com/sitemap.xml
+# Sitemaps
+Sitemap: https://neubrutalism-temp.vercel.app/sitemap.xml
