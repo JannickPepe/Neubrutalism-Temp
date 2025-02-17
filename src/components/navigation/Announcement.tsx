@@ -22,7 +22,7 @@ export const Announcement = () => {
             >
               <span className="font-semibold">🎉 Announcement 🎉</span>
               <span className="hidden sm:block">–</span>
-              <span> NighteCoding has crafting another template</span>
+              <span> NighteCoding has crafted another template</span>
             </Link>
             <button
               onClick={() => setDismissed(true)}

@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Optionally disallow internal Next.js build directories:
+Disallow: /_next/
+Disallow: /api/
+
+Sitemap: https://yourdomain.com/sitemap.xml
