@@ -2,7 +2,7 @@
 
 A Neubrutalism Template page developed by **NighteCoding**. This project provides a visually appealing and responsive design using cutting-edge technologies to showcase how Neubrutalism can be implemented for UI and features.
 
-![Project Preview](./public/images/Night-minimal-performance.png)
+![Project Preview](./public/images/neubrutalismn-tempate.png)
 
 ---
 
