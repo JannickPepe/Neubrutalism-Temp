@@ -47,6 +47,7 @@ export const BlogCarousel = () => {
                 }`}
                 disabled={!CAN_SHIFT_LEFT}
                 onClick={shiftLeft}
+                aria-label="To the left"
               >
                 <FiArrowLeft />
               </button>
@@ -56,6 +57,7 @@ export const BlogCarousel = () => {
                 }`}
                 disabled={!CAN_SHIFT_RIGHT}
                 onClick={shiftRight}
+                aria-label="To the right"
               >
                 <FiArrowRight />
               </button>

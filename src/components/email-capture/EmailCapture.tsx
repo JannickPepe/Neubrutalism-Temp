@@ -25,6 +25,7 @@ export const EmailCapture = () => {
           <button
             type="submit"
             className="grid size-10 shrink-0 place-content-center rounded-md bg-white text-xl text-zinc-900 transition-colors hover:bg-zinc-200"
+            aria-label="Email button"
           >
             <FiMail />
           </button>

@@ -28,7 +28,7 @@ export const BenefitsGrid = () => {
       <CollaborateBlock />
       <HighlighBlocks />
       <div className="col-span-3 mt-6 flex justify-center">
-        <Button intent="outline">
+        <Button intent="outline" aria-label="Landing CTA">
           <span className="font-bold">Get started - </span> no CC required
         </Button>
       </div>

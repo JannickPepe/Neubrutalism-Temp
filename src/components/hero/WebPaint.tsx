@@ -103,7 +103,7 @@ Drip.displayName = "Drip"; // For better debugging with memo
 
 const WetPaintButton: React.FC = React.memo(() => {
     return (
-        <button className="group relative rounded bg-[#FF6154] px-4 py-2.5 font-semibold text-neutral-900 text-lg transition-colors hover:bg-[#f35142]">
+        <button aria-label="Hero CTA" className="group relative rounded bg-[#FF6154] px-4 py-2.5 font-semibold text-neutral-900 text-lg transition-colors hover:bg-[#f35142]">
             Get Started for free ✨
             <Drip left="10%" height={24} delay={0.5} />
             <Drip left="26%" height={20} delay={3} />

@@ -44,7 +44,7 @@ export const FeatureDisplay = ({
             </motion.div>
           </AnimatePresence>
         </div>
-        <Button>
+        <Button aria-label="CTA button">
           <span className="font-bold">Get started - </span> no CC required
         </Button>
       </div>

@@ -13,6 +13,7 @@ export const Toggle = ({
   return (
     <div className="relative mx-auto mt-3 flex w-fit items-center rounded-full bg-zinc-200">
       <button
+        aria-label="Montly option"
         className="relative z-10 flex items-center gap-2 px-3 py-1.5 text-sm font-medium"
         onClick={() => {
           setSelected("monthly");
@@ -21,6 +22,7 @@ export const Toggle = ({
         <span className="relative z-10">Monthly</span>
       </button>
       <button
+        aria-label="Annual option"
         className="relative z-10 flex items-center gap-2 px-3 py-1.5 text-sm font-medium"
         onClick={() => {
           setSelected("annual");

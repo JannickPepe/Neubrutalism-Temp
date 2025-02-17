@@ -18,6 +18,7 @@ export const ToggleButton = ({
       }`}
     >
       <button
+        aria-label="Selection features"
         onClick={() => setSelected(id)}
         className={`w-full origin-top-left rounded-lg border py-3 text-xs font-medium transition-all md:text-base ${
           selected === id
