@@ -15,7 +15,6 @@ export default function Document() {
           content="NightCoding, Neubrutalism, Next.js, AI tools, responsive design, TypeScript, TailwindCSS, Framer Motion, web template, SEO, performance"
         />
         <meta name="author" content="NighteCoding" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
         {/* Favicon */}
         <link rel="icon" href="/favicon.ico" />
       </Head>
