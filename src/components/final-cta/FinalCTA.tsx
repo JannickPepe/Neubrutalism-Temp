@@ -2,6 +2,7 @@ import React from "react";
 import { SectionHeading } from "../shared/SectionHeading";
 import { LogoLarge } from "../navigation/Logo";
 import { Button } from "../shared/Button";
+import NeuFollowButton from "./NeuButton";
 
 export const FinalCTA = () => {
   return (
@@ -13,9 +14,7 @@ export const FinalCTA = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe,
           blanditiis?
         </p>
-        <Button intent="primary">
-          <span className="font-bold">Get started - </span> no CC required
-        </Button>
+        <NeuFollowButton />
       </div>
     </section>
   );

@@ -14,7 +14,7 @@ export default function App({ Component, pageProps }: AppProps) {
           name="description"
           content="A modern Next.js web application showcasing AI tools and resources with a visually appealing Neubrutalism design."
         />
-        <link rel="canonical" href="https://yourdomain.com" />
+        <link rel="canonical" href="https://neubrutalism-temp.vercel.app/" />
       </Head>
       <Component {...pageProps} />
       <Analytics />
